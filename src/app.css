@@ -1,0 +1,11 @@
+body {
+    margin:0;
+}
+
+.title-head {
+    text-align:center;
+    background-color: #555a64;
+    color:#ffc119;
+    padding:1%;
+    margin: 0;
+}

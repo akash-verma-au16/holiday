@@ -1,0 +1,27 @@
+.table {
+    text-align: center;
+    border: 3px solid #ccc;
+    padding: 5px;
+}
+
+.title {
+    margin: 0;
+    padding: 1%;
+    color:#fff;
+    background-color: #3f3f3f;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-item {
+    padding: 2%;
+    background-color: hsl(210,8%,70%);
+}
+
+.list-item:nth-child(even) {
+    background-color: hsl(210,8%,50%);
+}
