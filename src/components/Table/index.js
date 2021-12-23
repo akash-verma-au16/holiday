@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { filterBy, sortEvents } from '../../utils/events';
 
 const Table = ({ events, selectedRange, customRange }) => {
-  const [filteredEvents, setFilteredEvents] = useState(events);
+  const [filteredEvents, setFilteredEvents] = useState(sortEvents(events));
 
   useEffect(() => {
     setFilteredEvents(sortEvents(filterBy(events, selectedRange, customRange)));
